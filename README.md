@@ -4,10 +4,6 @@ A simple client-side authentication system built with **HTML5, CSS3, Vanilla Jav
 
 Passwords are processed using **SHA-256 hashing** before being stored, so plain-text passwords are not saved in `localStorage`.
 
-## 🔗 Live Demo
-
-[View Live Demo](#)
-
 ## Features
 
 * User registration with username and email

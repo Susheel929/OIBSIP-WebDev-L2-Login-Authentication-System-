@@ -168,7 +168,7 @@ No additional installation or dependencies are required.
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/login-authentication-system.git
+git clone https://github.com/Susheel929/OIBSIP-WebDev-L2-Login-Authentication-System-
 ```
 
 ### 2. Open the Project

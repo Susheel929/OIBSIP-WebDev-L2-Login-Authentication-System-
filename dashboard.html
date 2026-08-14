@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="card dashboard-card" id="dashboardRoot">
+    <div class="dashboard-header">
+      <h1>Dashboard</h1>
+      <button id="logoutBtn" class="btn-logout">Logout</button>
+    </div>
+
+    <div class="welcome-box">
+      <p>Welcome back,</p>
+      <div class="username" id="usernameDisplay">—</div>
+    </div>
+
+    <p><strong>Email:</strong> <span id="emailDisplay">—</span></p>
+    <p style="margin-top: 8px;"><strong>Logged in at:</strong> <span id="loginTimeDisplay">—</span></p>
+
+    <p style="margin-top: 24px; color: #999; font-size: 13px;">
+      This page is protected — you can only see it while logged in.
+    </p>
+  </div>
+
+  <script src="auth.js"></script>
+</body>
+</html>
